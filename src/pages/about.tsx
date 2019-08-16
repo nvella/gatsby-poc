@@ -1,21 +1,21 @@
 import React from "react";
 import Header from "../components/header";
 import Layout from "../components/layout";
-import { graphql } from "gatsby"
+import { graphql } from "gatsby";
 
 interface AboutPageNode {
   node: {
-    html: string
-  }
+    html: string;
+  };
 }
 
 interface AboutPageProps {
   allMarkdownRemark: {
-    edges: AboutPageNode[]
-  }
+    edges: AboutPageNode[];
+  };
 }
 
-const AboutPage: React.FC<{data: AboutPageProps}> = ({data}) => (
+const AboutPage: React.FC<{ data: AboutPageProps }> = ({ data }) => (
   <Layout>
     <section>
       <Header>About Page</Header>
@@ -27,7 +27,10 @@ const AboutPage: React.FC<{data: AboutPageProps}> = ({data}) => (
 
 export const query = graphql`
   query AboutPageContent {
-    allMarkdownRemark(filter: {frontmatter: {title: {eq: "About"}}}, limit: 1) {
+    allMarkdownRemark(
+      filter: { frontmatter: { title: { eq: "About" } } }
+      limit: 1
+    ) {
       edges {
         node {
           html

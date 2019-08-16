@@ -1,5 +1,8 @@
 package-lock.json
 
+# JetBrains IDE files
+.idea/
+
 # Logs
 logs
 *.log
