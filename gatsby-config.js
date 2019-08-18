@@ -9,6 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Let's show more cute pictures`,
   },
+  pathPrefix: "/gatsby-poc",
   plugins: [
     `gatsby-plugin-typescript`,
     {
