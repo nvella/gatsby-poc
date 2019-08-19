@@ -33,6 +33,7 @@ module.exports = {
         name: `DGHA Portal`,
         /*eslint-disable */
         short_name: `DGHA`,
+        scope: `/gatsby-poc`,
         start_url: `/gatsby-poc`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
