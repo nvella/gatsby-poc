@@ -34,7 +34,7 @@ module.exports = {
         /*eslint-disable */
         short_name: `DGHA`,
         scope: `/gatsby-poc`,
-        start_url: `/gatsby-poc`,
+        start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         /*eslint-enable */
