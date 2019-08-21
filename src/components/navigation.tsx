@@ -45,6 +45,7 @@ const RightNav: React.FC<{}> = () => (
     <ListItem To={`/`} Label={`Home`} />
     <ListItem To={`/about`} Label={`About`} />
     <ListItem To={`/contact`} Label={`Contact`} />
+    <ListItem To={`/swipe`} Label={`Swipe Test`} />
   </ul>
 );
 
